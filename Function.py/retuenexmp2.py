@@ -39,11 +39,3 @@
 #def wish(name='durga'):# default argument
 #    print('hello ',name,'good evening')
 #wish()
-class Student:
-    def GetStudent(self):
-        self.__rollno = input("Enter Roll No:")
-        self.__name = input("Enter Name:")
-        self.__physicsMarks = int(input("Enter Physics Marks:"))
-        self.__chemistyMarks = int(input("Enter Chemistry Marks:"))
-        self.__mathMarks = int(input("Enter Maths Marks:"))
-        return(self.__rollno)
