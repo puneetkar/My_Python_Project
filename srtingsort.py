@@ -6,5 +6,5 @@ for ch in s:
         alphabet.append[ch]
     else:
         digit.append(ch)
-output=''.join(sorted(alphabet))+(sorted(digit))
+        output=''.join(sorted(alphabet))+(sorted(digit))
 print(output)
